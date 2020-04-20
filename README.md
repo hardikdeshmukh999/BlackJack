@@ -77,21 +77,21 @@ The player &quot;stands&quot; with the total of 15 and now the dealer plays
 
 Initial state:
 
-Ten of Clubs = 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ten of Clubs = 10
 
-Four of Hearts = 4
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Four of Hearts = 4
 
-Making a total of 14
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Making a total of 14
 
 On Hit (1):
 
-Ten of Clubs = 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ten of Clubs = 10
 
-Four of Hearts = 4
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Four of Hearts = 4
 
-Two of Clubs = 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two of Clubs = 2
 
-Making a total of 16 and the dealer wins
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Making a total of 16 and the dealer wins
 
 **CODE SNIPPET**
 
@@ -110,67 +110,67 @@ Aces are otherwise numbered as 1:
 
 Initial state:
 
-Six of Clubs = 6
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Six of Clubs = 6
 
-Ace of Hearts = 11
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ace of Hearts = 11
 
-Making a total of 17
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Making a total of 17
 
 On Hit (1):
 
-Six of Clubs = 6
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Six of Clubs = 6
 
-Ace of Hearts = 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ace of Hearts = 1
 
-Ten of Clubs = 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ten of Clubs = 10
 
-Making total of 17 and avoiding Burst by counting Ace as 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Making total of 17 and avoiding Burst by counting Ace as 1
 
 **CASE 2** : Double Ace card
 
 Initial state:
 
-Three of Clubs = 3
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Three of Clubs = 3
 
-Ace of Hearts = 11
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ace of Hearts = 11
 
-Making a total of 14
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Making a total of 14
 
 On Hit (1):
 
-Three of Clubs = 3
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Three of Clubs = 3
 
-Ace of Hearts = 11
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ace of Hearts = 11
 
-Two of Clubs = 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two of Clubs = 2
 
-Making total of 16
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Making total of 16
 
 On Hit (2):
 
-Three of Clubs = 3
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Three of Clubs = 3
 
-Ace of Hearts = 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ace of Hearts = 1
 
-Two of Clubs = 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two of Clubs = 2
 
-Six of Diamonds = 6
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Six of Diamonds = 6
 
-Making total of 12 and avoiding Burst by counting Ace as 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Making total of 12 and avoiding Burst by counting Ace as 1
 
 On Hit (3):
 
-Three of Clubs = 3
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Three of Clubs = 3
 
-Ace of Hearts = 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ace of Hearts = 1
 
-Two of Clubs = 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two of Clubs = 2
 
-Six of Diamonds = 6
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Six of Diamonds = 6
 
-Ace of Diamonds = 11
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ace of Diamonds = 11
 
-Making a total of 23 resulting in Burst as one of the two Aces can only be counted as 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Making a total of 23 resulting in Burst as one of the two Aces can only be counted as 1
 
 **CODE SNIPPET**
 
@@ -185,21 +185,21 @@ Example:
 
 Initial state:
 
-Nine of Clubs = 9
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nine of Clubs = 9
 
-Ten of Hearts = 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ten of Hearts = 10
 
-Making a total of 19
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Making a total of 19
 
 On Hit (1):
 
-Nine of Clubs = 9
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nine of Clubs = 9
 
-Ten of Hearts = 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ten of Hearts = 10
 
-Ace of Clubs = 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ace of Clubs = 1
 
-Making total of 20 and avoiding burst by counting ace as 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Making total of 20 and avoiding burst by counting ace as 1
 
 If the player&#39;s first two cards contains an ace (counted as 11) and keeps playing (hit) in order to reach close to 21 and then receives a card resulting in total amount more than 21 then the first card is counted as 1. And if the player encounters another ace card later resulting in burst then second ace card is not counted as 1.
 
