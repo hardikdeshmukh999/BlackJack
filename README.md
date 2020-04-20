@@ -2,6 +2,8 @@
 
 A card gambling game made by Hardik Deshmukh in Python
 
+Over here, I explained how to make you comply with the different rules and conditions required to make a game in python. I’m going to recommend that you build your own code by going through the article first, and in case you feel less confident than you can always refer the code.
+
 
 **THE DECK OF CARDS**
 
