@@ -84,7 +84,8 @@ Two of Clubs = 2
 
 Making a total of 16 and the dealer wins
 
-**CODE SNIPPET** :
+**CODE SNIPPET**
+
 If the player&#39;s stand cumulative total is above 16 and dealer has total below 17 then dealer keeps hitting until its total value is above 16 and then stands or wins if its total is more than player&#39;s. Within the _win\_or\_bust_ function this condition is defined.
 <p align="center">
   <img  src="snippets/d1.PNG">
@@ -162,7 +163,7 @@ Ace of Diamonds = 11
 
 Making a total of 23 resulting in Burst as one of the two Aces can only be counted as 1
 
-**CODE SNIPPET** :
+**CODE SNIPPET**
 
 Within The _value\_evaluator_ function an ace condition is defined. While adding an ace, if the total is above 21, in the highlighted code snippet ,it will append value of ace as 1 if and only if there is no ace with value counted as 1 else it will append the values as 11.(Note: The values of cards are stored in a list and not added into a single variable)
 
